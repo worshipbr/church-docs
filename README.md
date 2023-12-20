@@ -23,6 +23,7 @@ erDiagram
 
 ## title: Administração de Visitantes
 
+```mermaid
 erDiagram
 CHURCH ||--|{ USER : contains
 USER }|--|| ROLE : assign
@@ -32,3 +33,5 @@ CHURCH ||--|{ DEPARTAMENT : has
 GUEST }|--|| DEPARTAMENT : integrates
 USER }|--|{ DEPARTAMENT : leader
 CHURCH ||--|{ NOTE : show
+
+```
